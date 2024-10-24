@@ -10,7 +10,7 @@ const Layout=()=>{
         <>
           <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#">
             EventPlanner
           </Navbar.Brand>
           <Nav className="me-auto">
