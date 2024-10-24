@@ -8,13 +8,6 @@
       "date": "2024-10-26T09:15:00.000Z"
     },
     {
-      "id": "d18f",
-      "tag": "Work",
-      "eventname": "Meeting on Development",
-      "location": "Jakarta",
-      "date": "2024-10-01T18:30:00.000Z"
-    },
-    {
       "id": "1a0b",
       "tag": "Work",
       "eventname": "Sammer Daughter Birthday",
@@ -48,6 +41,13 @@
       "eventname": "Jiya wedding ",
       "location": "Deepali hotel ",
       "date": "2024-11-06T12:30:00.000Z"
+    },
+    {
+      "id": "47c1",
+      "tag": "Work",
+      "eventname": "shadhi",
+      "location": "delhi",
+      "date": "2024-10-09T11:45:00.000Z"
     }
   ]
 }

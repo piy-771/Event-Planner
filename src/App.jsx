@@ -14,6 +14,8 @@ const App=()=>{
            <Routes>
                <Route path="/" element={<Layout/>}>
                 <Route  index element={<Home/>}/>
+                <Route  path="home" element={<Home/>}/>
+
                 <Route path="sheduleEvent"  element={<Addplan/>}/>
                 <Route path="events" index element={<AllEvents/>}/>
                 <Route path="search" index element={<Search/>}/>
