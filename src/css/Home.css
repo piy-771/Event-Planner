@@ -1,0 +1,40 @@
+/* In your global CSS file (e.g., App.css or index.css) */
+
+@font-face {
+    font-family: Cabinet Grotesk Black;
+    src: url(/src/CABINETGROTESK-BLACK.TTF);
+}
+
+
+  
+.hero{
+    padding-top: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 200px;
+    h1{
+        
+        pre {
+            font-family:Cabinet Grotesk,sans-serif;
+            font-size: 88px;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+          }
+        
+    }
+    p{
+        font-size: 25px;
+    }
+    span{
+        color:#3B82F6;
+    }
+    .hero-div2{
+        margin-left: 300px;
+        
+    }
+}
+.cards{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "5783",
+      "tag": "Party",
+      "eventname": "Office party",
+      "location": "Shyam Hotel",
+      "date": "2024-10-26T09:15:00.000Z"
+    },
+    {
+      "id": "d18f",
+      "tag": "Work",
+      "eventname": "Meeting on Development",
+      "location": "Jakarta",
+      "date": "2024-10-01T18:30:00.000Z"
+    },
+    {
+      "id": "1a0b",
+      "tag": "Work",
+      "eventname": "Sammer Daughter Birthday",
+      "location": "Kalyan Hotel",
+      "date": "2024-10-26T12:00:00.000Z"
+    },
+    {
+      "id": "1fb2",
+      "tag": "Personal",
+      "eventname": "Date",
+      "location": "Time and Coffee Cafe",
+      "date": "2024-11-01T07:15:00.000Z"
+    },
+    {
+      "id": "4bb9",
+      "tag": "Work",
+      "eventname": "Meeting with company associate",
+      "location": "Office ",
+      "date": "2024-11-02T07:30:00.000Z"
+    },
+    {
+      "id": "1105",
+      "tag": "Personal",
+      "eventname": "Meetup with school friends",
+      "location": "Saina's cafe",
+      "date": "2024-11-04T11:45:00.000Z"
+    },
+    {
+      "id": "4379",
+      "tag": "Party",
+      "eventname": "Jiya wedding ",
+      "location": "Deepali hotel ",
+      "date": "2024-11-06T12:30:00.000Z"
+    }
+  ]
+}
