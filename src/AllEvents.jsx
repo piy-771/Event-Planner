@@ -11,7 +11,7 @@ const AllEvents=()=>{
     //const [ename, setEname]=useState("");
     const navigate= useNavigate();
     const loadData=()=>{
-          let url="http://localhost:3000/events";
+          let url="https://json-server-deploy-w380.onrender.com/events";
           axios.get(url).then((res)=>{
             console.log(res.data);
             setEvents(res.data);
@@ -21,12 +21,11 @@ const AllEvents=()=>{
     useEffect(()=>{
         loadData();
     }, [])
-
     const myEdit=(id)=>{
         navigate(`/editrec/${id}`)
    }
    const myDel=(id)=>{
-    let api=`http://localhost:3000/events/${id}`
+    let api=`https://json-server-deploy-w380.onrender.com/events/${id}`
     axios.delete(api).then((res)=>{
       console.log(res); 
          message.error("Your record Succesfully deleted!!!");
@@ -63,8 +62,6 @@ const AllEvents=()=>{
         <div className="display-search">
         <h1>Your Events</h1>
         </div>
-        
-
          <Table striped bordered hover variant="dark">
       <thead>
         <tr>

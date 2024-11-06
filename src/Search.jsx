@@ -7,7 +7,7 @@ const Search =()=>{
     const handleChange=(e)=>{
         let empname= e.target.value;
         setEname(empname);
-        let api=`http://localhost:3000/events`;
+        let api=`https://json-server-deploy-w380.onrender.com/events`;
         axios.get(api).then((res)=>{
             setMydata(res.data);
             console.log(res.data);

@@ -2,10 +2,10 @@
   "events": [
     {
       "id": "5783",
-      "tag": "Party",
-      "eventname": "Office party",
-      "location": "Shyam Hotel",
-      "date": "2024-10-26T09:15:00.000Z"
+      "tag": "Personal",
+      "eventname": "Meetup with friends",
+      "location": "Cafe",
+      "date": "2024-10-26T13:30:00.000Z"
     },
     {
       "id": "1a0b",
@@ -43,11 +43,11 @@
       "date": "2024-11-06T12:30:00.000Z"
     },
     {
-      "id": "47c1",
+      "id": "47e5",
       "tag": "Work",
-      "eventname": "shadhi",
-      "location": "delhi",
-      "date": "2024-10-09T11:45:00.000Z"
+      "eventname": "Metting at office",
+      "location": "At office",
+      "date": "2024-10-18T08:45:00.000Z"
     }
   ]
 }

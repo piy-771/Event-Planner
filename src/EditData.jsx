@@ -12,7 +12,7 @@ const EditData=()=>{
     const {myid} =useParams();
     const [mydata, setMydata]=useState({}); // mydata={}
     const loadData=()=>{
-      let api=`http://localhost:3000/events/${myid}`;
+      let api=`https://json-server-deploy-w380.onrender.com/events/${myid}`;
       axios.get(api).then((res)=>{
         console.log(res.data);
         setMydata(res.data);
@@ -29,7 +29,8 @@ const EditData=()=>{
     }
    const handleSubmit=(e)=>{ 
       e.preventDefault();
-    let api=`http://localhost:3000/events/${myid}`;
+    let api=`https://json-server-deploy-w380.onrender.com/events/${myid}`;
+    
     const eventData={
         ...mydata,
         date:startDate ? startDate.toISOString() :null,
@@ -97,9 +98,6 @@ const EditData=()=>{
  
 </Form>
             </div>
-            
-
-
     </Container>
         </>
     )

@@ -19,8 +19,8 @@ const Addplan=()=>{
         console.log(input);
     }
     const handleSubmit=()=>{
-        let api="http://localhost:3000/events";
-        const eventData={
+        let api="https://json-server-deploy-w380.onrender.com/events";
+        const eventData={ 
           ...input,
           date:startDate ? startDate.toISOString() :null,
         };
