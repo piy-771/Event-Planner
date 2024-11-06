@@ -68,7 +68,7 @@ const AllEvents=()=>{
           <th>Tag</th>
           <th>Event Name</th>
           <th>Date and Time</th>
-          <th>Loction</th>
+          <th>Location</th>
           <th>
             Update
           </th>
